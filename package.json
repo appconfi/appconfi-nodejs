@@ -1,0 +1,27 @@
+{
+  "name": "appconfi-nodejs",
+  "version": "1.0.0",
+  "description": "Service to centrally manage application settings and feature toggles for applications and services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appconfi/appconfi-nodejs.git"
+  },
+  "keywords": [
+    "app_setting",
+    "feature_toggle",
+    "configuration"
+  ],
+  "author": "Appconfi's Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appconfi/appconfi-nodejs/issues"
+  },
+  "homepage": "https://github.com/appconfi/appconfi-nodejs#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
