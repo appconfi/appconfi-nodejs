@@ -1,4 +1,4 @@
-var Appconfi = require("../../src/index");
+var Appconfi = require("appconfi");
 
 var manager = new Appconfi({
     env: '[default]',
@@ -9,7 +9,7 @@ var manager = new Appconfi({
 
  manager.startMonitoring();
 
- manager.isFeatureEnabled('my_awesome_feature').then(function(value){
+manager.isFeatureEnabled('my_awesome_feature').then(function(value){
     console.log('my_awesome_feature',value);
 }).catch(function(error){
     console.log(error);

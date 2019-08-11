@@ -1,8 +1,8 @@
 {
-  "name": "appconfi-nodejs",
+  "name": "appconfi",
   "version": "1.0.0",
   "description": "Service to centrally manage application settings and feature toggles for applications and services.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +23,6 @@
   "homepage": "https://github.com/appconfi/appconfi-nodejs#readme",
   "dependencies": {
     "request": "^2.88.0"
-  }
+  },
+  "devDependencies": {}
 }
