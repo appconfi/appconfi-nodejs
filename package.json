@@ -1,6 +1,6 @@
 {
   "name": "appconfi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Service to centrally manage application settings and feature toggles for applications and services.",
   "main": "src/index.js",
   "scripts": {

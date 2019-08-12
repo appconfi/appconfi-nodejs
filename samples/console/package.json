@@ -9,6 +9,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "appconfi": "^1.0.0"
+    "appconfi": "^1.0.1"
   }
 }
